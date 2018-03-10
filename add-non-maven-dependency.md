@@ -7,3 +7,15 @@ mvn install:install-file -Dfile=/path/to/jar/file -DgroupId=your.company.name -D
 ```
 mvn install:install-file -Dfile=C:\PaperServer\paper-1.8.8.jar -DgroupId=com.destroystokyo -DartifactId=PaperClip -Dversion=1.8.8 -Dpackaging=jar
 ```
+
+```
+
+```xml
+<dependencies>
+    <dependency>
+      <groupId>com.destroystokyo</groupId>
+      <artifactId>PaperClip</artifactId>
+      <version>1.8.8</version>
+    </dependency>
+</dependencies>
+```
